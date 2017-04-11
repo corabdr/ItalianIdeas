@@ -1,0 +1,34 @@
+[
+  {
+    "name": "The Legend of Zelda",
+    "support": "Nes"
+  },
+  {
+    "name": "The Legend of Zelda: A Link to the Past",
+    "support": "Super Nes"
+  },
+  {
+    "name": "The Legend of Zelda: Ocarina of Time",
+    "support": "Nintendo 64"
+  },
+  {
+    "name": "The Legend of Zelda: Majora's Mask",
+    "support": "Nintendo 64"
+  },
+  {
+    "name": "The Legend of Zelda: The Wind Waker",
+    "support": "Nintendo GameCube"
+  },
+  {
+    "name": "The Legend of Zelda: Twilight Princess",
+    "support": "Nintendo GameCube"
+  },
+  {
+    "name": "The Legend of Zelda: Skyward Sword",
+    "support": "Wii"
+  },
+  {
+    "name": "The Legend of Zelda: Breath of the Wild",
+    "support": "Nintendo Switch"
+  }
+]
