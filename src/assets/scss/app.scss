@@ -50,4 +50,7 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+@import 'variables';
 @import 'home';
+@import 'components/header';
+

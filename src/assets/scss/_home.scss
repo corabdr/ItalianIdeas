@@ -1,3 +1,20 @@
-.header {
-  background-color: red;
+.concept {
+
+  .columns {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    h3 {
+      color: $darkgrey;
+    }
+
+    p {
+      color: $lightgrey;
+    }
+  }
 }
+
+
+
+
+

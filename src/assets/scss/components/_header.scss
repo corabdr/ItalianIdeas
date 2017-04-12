@@ -1,0 +1,16 @@
+.top-bar, .top-bar-left ul {
+  background-color: $jaune;
+  color: white;
+}
+
+.header {
+  background-color: $jaune;
+  color: white;
+
+  .row {
+
+    .presentation {
+      margin: 200px 0px;
+    }
+  }
+}
