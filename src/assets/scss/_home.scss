@@ -4,6 +4,20 @@
     margin-top: 50px;
     margin-bottom: 50px;
 
+    .container-img {
+      background-color: $orange;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      padding: 30px;
+      margin:auto;
+      margin-bottom: 30px;
+
+      svg {
+        fill: $white;
+      }
+    }
+
     h3 {
       color: $darkgrey;
     }
@@ -13,8 +27,3 @@
     }
   }
 }
-
-
-
-
-
