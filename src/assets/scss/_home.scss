@@ -1,3 +1,7 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 .concept {
 
   .columns {
@@ -25,5 +29,49 @@
     p {
       color: $lightgrey;
     }
+  }
+}
+
+.bg-yellow {
+  background-color: $yellow;
+}
+.bg-violet {
+  background-color: $prune;
+  margin: 0px;
+  padding: 0px;
+  height: 20px;
+}
+
+
+.pates {
+  color: $white;
+}
+
+.pates, .pizza {
+  // margin:50px 0px;
+  padding: 50px 0px;
+
+  img {
+    border-radius: 10px;
+  }
+
+  h5 {
+    margin-top: 20px;
+  }
+
+  .ingredients {
+    margin-top: 10px;
+
+    li {
+      list-style-type: none;
+
+      svg {
+        width: 15px;
+        height: 15px;
+        fill: $orange;
+      }
+    }
+
+
   }
 }

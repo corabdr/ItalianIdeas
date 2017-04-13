@@ -1,5 +1,5 @@
 .top-bar, .top-bar-left ul {
-  background-color: $jaune;
+  background-color: $yellow;
   color: white;
 
   .menu-logo {
@@ -8,15 +8,17 @@
     svg {
       width: 50px;
       height: 50px;
+      fill: $white;
     }
   }
 }
 
 .header {
-  background-color: $jaune;
+  background-color: $yellow;
   color: white;
 
   .row {
+
     .presentation {
       margin: 50px 0px 100px 50px;
 
@@ -26,6 +28,31 @@
         svg {
           // animation: pulse 5s 1;
           fill: $white;
+        }
+      }
+    }
+
+    .chat {
+
+      .baseline {
+        color: $white;
+        font-size: 40px;
+        margin-top: 150px;
+        margin-bottom: 50px;
+      }
+
+      .chat-button {
+        border: 6px solid $orange;
+        border-radius: 15px;
+        padding: 15px 20px;
+        color: $white;
+        font-size: 22px;
+
+        svg {
+          width: 20px;
+          height: 20px;
+          fill: $white;
+          margin-right: 5px;
         }
       }
     }
