@@ -1,0 +1,38 @@
+.footer {
+  background-color: $orange;
+  color: $white;
+
+  .tomato {
+    margin:0px;
+    svg {
+      fill: $white;
+      height: 20px;
+      width: 20px;
+    }
+  }
+  .copy {
+    margin:0px;
+    padding-bottom: 30px;
+  }
+  .socials {
+
+    padding-top: 30px;
+    svg {
+      width: 40px;
+      height: 40px;
+      display: inline-block;
+      margin: 0px 5px;
+
+      .fill-white {
+        fill: $white;
+      }
+
+      .fill-orange {
+        fill: $orange;
+      }
+    }
+
+
+
+  }
+}
