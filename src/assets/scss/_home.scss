@@ -4,9 +4,16 @@ body {
 
 .concept {
 
+  @include breakpoint(small only) {
+    margin-top: 20px;
+  }
+
   .columns {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px auto;
+
+    @include breakpoint(small only) {
+      margin: 20px auto;
+    }
 
     .container-img {
       background-color: $orange;
@@ -45,6 +52,11 @@ body {
 
 .pates, .salade {
   color: $white;
+  h3 {
+    @include breakpoint(small only) {
+      margin-top: 30px;
+    }
+  }
 }
 
 .pizza {
@@ -64,6 +76,12 @@ body {
 
   img {
     border-radius: 10px;
+  }
+
+  h3 {
+    @include breakpoint(small only) {
+      text-align: center;
+    }
   }
 
   h5 {
@@ -98,18 +116,27 @@ body {
 
   .chat-button {
     display: inline-block;
-    margin: 30px 0px;
+    margin: 50px 0px;
     border: 6px solid $orange;
     border-radius: 15px;
     padding: 15px 20px;
-    color: $white;
+    color: $orange;
     font-size: 22px;
+
+    @include breakpoint(small only) {
+      font-size: 16px;
+    }
 
     svg {
       width: 20px;
       height: 20px;
-      fill: $white;
+      fill: $orange;
       margin-right: 5px;
+
+      @include breakpoint(small only) {
+        width: 15px;
+        height: 15px;
+      }
     }
   }
 }
